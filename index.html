@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Body Mass Index</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>BMI Calculator</h1>
+        <div class="Input">
+            <div class="input1">
+                <input type="text" placeholder="Enter Weight" id="weight" >
+                <h3>In kilograms</h3>
+            </div>
+            <div class="input2">
+                <input type="text" placeholder="Enter Height" id="height">
+                <h3>In Centimeters</h3>
+            </div>
+        </div>
+        <button onclick="inputData()">Compute</button>
+        
+        <div class="display">
+            <h2 id="displayBmi">BMI</h2>
+        </div>
+    </div>
+
+    <div class="details">
+        <h1>BMI Categories:</h1>
+        <p>Underweight = <18.5</p>
+        <p>Normal weight = 18.5 to 24.9</p>
+        <p>Overweight = 25 to 29.9</p>
+        <p>Obesity = BMI of 30 or greater</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
